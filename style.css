@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: var(--Grey-900);
+  color: var(--White);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 347px;
+  height: 550px;
+  padding: 35px;
+  background: var(--Grey-800);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  height: 81px;
+  width: 81px;
+  border-radius: 50%;
+}
+h1 {
+  font-weight: 400;
+}
+h4 {
+  color: var(--Green);
+  font-weight: 600;
+}
+.buttons a:link,
+a:visited {
+  display: block;
+  text-decoration: none;
+  width: 275px;
+  height: 40px;
+  background: var(--Grey-700);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 15px 0;
+  color: var(--White);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
